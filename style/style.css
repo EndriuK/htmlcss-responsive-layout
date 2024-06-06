@@ -66,3 +66,25 @@ header .content {
 .float-end {
     float: right;
 }
+
+
+/* Media query */
+
+@media screen and (min-width: 576px) {
+    
+    .col-66 {
+        width: calc(100% / 3 * 2);
+    }
+
+    .col-33 {
+        width: calc(100% / 3);
+    }
+
+    .col-50 {
+        width: 50%;
+    }
+
+    .col-25 {
+        width: 50%;
+    }
+}
