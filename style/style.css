@@ -19,6 +19,20 @@ header {
 }
 
 
+.header-col, .footer-col {
+    width: 50%;
+}
+
+footer {
+    background-color: #333333;
+    color: #fff;
+    padding: 20px
+}
+
+.footer-col {
+    text-align: center;
+}
+
 /* layout class */
 
 .container {
@@ -30,12 +44,21 @@ header {
     flex-wrap: wrap;
 }
 
-.col-50 {
-    width: 50%;
+.col-20, .col-25, .col-33, .col-66, .col-50, .col-80, .col-100 {
+    width: 100%;
+}
+
+
+
+header .content {
+    height: 75px;
 }
 
 .content {
     margin: 10px;
+    background-color: green;
+    height: 300px;
+    border: 1px solid black;
 }
 
 /* utility classis */
