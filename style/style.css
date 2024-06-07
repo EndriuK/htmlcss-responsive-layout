@@ -89,7 +89,7 @@ header .content {
     text-decoration: none;
 }
 
-.dektop-menu {
+.desktop-menu {
     display: none;
 }
 
@@ -134,8 +134,12 @@ header .content {
     }
 
 
-    .dektop-menu {
+    .desktop-menu {
         display: block;
+    }
+
+    .container {
+        max-width: 1200px;
     }
 
 }
